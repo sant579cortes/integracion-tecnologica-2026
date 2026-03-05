@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integración Tecnológica - Perfil</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 90%;
+            border-top: 5px solid #2563eb;
+        }
+        h1 {
+            color: #1e40af;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+        .info-item {
+            margin-bottom: 1rem;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 8px;
+        }
+        .label {
+            font-weight: bold;
+            color: #475569;
+            display: block;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+        .value {
+            color: #1e293b;
+            font-size: 1.1rem;
+        }
+        .footer {
+            margin-top: 1.5rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #94a3b8;
+        }
+        .badge {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-right: 5px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Integración Tecnológica</h1>
+        
+        <div class="info-item">
+            <span class="label">Nombre Completo</span>
+            <span class="value">Santiago Castaño Cortes</span>
+        </div>
+
+        <div class="info-item">
+            <span class="label">Estudios</span>
+            <span class="value">Ingeniería de Sistemas</span>
+        </div>
+
+        <div class="info-item">
+            <span class="label">Lenguajes de Programación</span>
+            <div style="margin-top: 5px;">
+                <span class="badge">Python</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">PHP</span>
+                <span class="badge">SQL</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            Servidor Apache funcionando en Ubuntu WSL
+        </div>
+    </div>
+</body>
+</html>
